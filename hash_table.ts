@@ -200,7 +200,7 @@ class HashTable {
     public colision(){
 
     }
-
+//Mostrar tabla hash
     public show(): void {
         let data: string = "";
         for (const codigo of this.data) {
@@ -235,7 +235,7 @@ tablaProducto.insert(producto8);
 tablaProducto.insert(producto9);
 tablaProducto.insert(producto10);
 
-
+//Provocando colision
 let codigoABuscar: number = 1;
 let producto = tablaProducto.buscar(codigoABuscar);
 let colision = tablaProducto.colision();
